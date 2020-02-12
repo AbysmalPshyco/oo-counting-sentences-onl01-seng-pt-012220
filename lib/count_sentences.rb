@@ -3,11 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-  if  sentence.include? (".")
-    true 
-    return true
-  else
-   return false 
+   self.include? (".")
   end
     
   end
