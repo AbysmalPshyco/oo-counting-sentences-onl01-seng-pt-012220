@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-    self.how_many?
+    self.count
   end
 end
